@@ -28,7 +28,7 @@ This project performs an Exploratory Data Analysis (EDA) on a housing dataset to
 
 The dataset contains complete sale price data with no null values. The mean ($189,554.77) is higher than the median ($168,712), indicating a right-skewed distribution driven by high-value outliers.
 
-![Sale Price Summary Statistics](images/a1f1data.png)
+![Sale Price Summary Statistics](image/a1f1data.png)
 
 The dataset includes a mix of variable types: Byte, Double, Int16, Int32, String, V_String, and Unknown.
 
