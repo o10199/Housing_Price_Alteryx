@@ -198,6 +198,3 @@ The scatterplot and Pearson correlation (r = 0.796) both strongly support reject
 - Neighborhood and MS Zoning variables can encode existing socioeconomic biases
 
 ---
-
-## References
-Housing dataset used for DSC-501 coursework, Utica University. File: `03_Housingdata.csv`
