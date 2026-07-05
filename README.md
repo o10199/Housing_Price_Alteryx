@@ -40,11 +40,11 @@ The dataset includes a mix of variable types: Byte, Double, Int16, Int32, String
 
 The histogram below shows the right-skewed distribution of sale prices, with most homes concentrated between $100,000–$250,000 and a long tail toward higher values. The standard deviation of $84,258 reflects the wide range of property types in the dataset.
 
-![Sale Price Distribution](images/a2f1_saleprice_stats.png)
+![Sale Price Distribution](image/a2f1_saleprice_stats.png)
 
 The box plot highlights the spread between the minimum ($13,869) and maximum ($806,942), with Q3 ($224,204) sitting well above the median — indicating the upper half of the distribution is more spread out.
 
-![Sale Price Box Plot](images/a2f2_saleprice-minmax.png)
+![Sale Price Box Plot](image/a2f2_saleprice-minmax.png)
 
 The scatterplot of Sale Price vs. Overall Quality confirms a clear positive relationship — as overall quality increases, sale prices rise as well.
 
