@@ -32,7 +32,7 @@ The dataset contains complete sale price data with no null values. The mean ($18
 
 The dataset includes a mix of variable types: Byte, Double, Int16, Int32, String, V_String, and Unknown.
 
-![Variable Types](images/a1f2_variable_types.png)
+![Variable Types](image/a1f2_variable_types.png)
 
 ---
 
