@@ -1,7 +1,7 @@
 # Housing Price EDA & Prediction — Alteryx
 
 ## Overview
-This project performs an Exploratory Data Analysis (EDA) on a housing dataset to identify the key variables that predict sale price. Three linear regression models were built and compared to understand which property features — from garage quality to roof material — have the greatest impact on what a home sells for.
+This project performs an Exploratory Data Analysis (EDA) on a housing dataset to identify the key variables that predict sale price. Three linear regression models were built and compared to understand which property features, from garage quality to roof material, have the greatest impact on what a home sells for.
 
 **Research Question:** What independent variables best predict house sale price?
 
@@ -42,7 +42,7 @@ The histogram below shows the right-skewed distribution of sale prices, with mos
 
 ![Sale Price Distribution](image/a2f1_saleprice_stats.png)
 
-The box plot highlights the spread between the minimum ($13,869) and maximum ($806,942), with Q3 ($224,204) sitting well above the median — indicating the upper half of the distribution is more spread out.
+The box plot highlights the spread between the minimum ($13,869) and maximum ($806,942), with Q3 ($224,204) sitting well above the median, indicating the upper half of the distribution is more spread out.
 
 ![Sale Price Box Plot](image/a2f2_saleprice-minmax.png)
 
@@ -155,7 +155,7 @@ Without roof material in the model, neighborhood and garage quality emerge as th
 
 ![Regression 3 Variables](image/a7f3_variables3.png)
 
-Proximity to positive features (Condition.2PosN) shows a negative coefficient of ~−$100,000 — an unexpected finding that may reflect buyer behavior or data limitations around rare categories.
+Proximity to positive features (Condition.2PosN) shows a negative coefficient of ~−$100,000, an unexpected finding that may reflect buyer behavior or data limitations around rare categories.
 
 ---
 
@@ -192,7 +192,7 @@ The scatterplot and Pearson correlation (r = 0.796) both strongly support reject
 ---
 
 ## Limitations
-- Dataset may reflect availability or reporting bias — accuracy of seller/agent-reported data cannot be verified
+- Dataset may reflect availability or reporting bias, accuracy of seller/agent-reported data cannot be verified
 - Sample size of 2,903 may not fully represent all housing areas in the dataset
 - High-impact variables like membrane roofing have very low frequency, which may inflate their estimated coefficients
 - Neighborhood and MS Zoning variables can encode existing socioeconomic biases
